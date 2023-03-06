@@ -1,37 +1,39 @@
 {
+  "name": "jate",
+  "version": "1.0.0",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "webpack-dev-server --open",
-    "build": "webpack --mode=production"
+    "start:dev": "",
+    "start": "webpack serve --mode=development",
+    "server": "",
+    "build": "webpack",
+    "install": "",
+    "client": ""
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "babel": "^6.23.0",
-    "concurrently": "^7.6.0",
     "express": "^4.18.2",
     "idb": "^7.1.1",
+    "if-env": "^1.0.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.11.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.21.0",
-    "@babel/preset-env": "^7.20.2",
-    "babel-loader": "^9.1.2",
-    "css-loader": "^6.7.3",
-    "file-loader": "^6.2.0",
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1",
-    "webpack-pwa-manifest": "^4.3.0"
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4",
+    "webpack-cli": "^5.0.1"
   },
-  "name": "pwa_texteditor",
-  "description": "",
-  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Barrerse/PWA_TextEditor.git"
+    "url": "git+https://github.com/coding-boot-camp/cautious-meme.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Barrerse/PWA_TextEditor/issues"
+    "url": "https://github.com/coding-boot-camp/cautious-meme/issues"
   },
-  "homepage": "https://github.com/Barrerse/PWA_TextEditor#readme"
+  "homepage": "https://github.com/coding-boot-camp/cautious-meme#readme"
 }
