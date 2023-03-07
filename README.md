@@ -26,7 +26,7 @@ To start the development server, run:
 
 `npm start`
 
-This will start the server at `http://localhost:8080` and open the application in your default browser.
+This will start the server at `http://localhost:3000` and open the application in your default browser.
 
 To build the application for production, run:
 
